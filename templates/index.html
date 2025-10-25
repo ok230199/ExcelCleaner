@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>AIデータクリーナー</title>
+</head>
+<body>
+    <h1>AIファーストなデータクリーナー</h1>
+    <p>AIが読みやすいように、Excelファイル（△記号など）を整形します。</p>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xlsx" required>
+        <button type="submit">1. アップロードして整形</button>
+    </form>
+    <p>（処理が終わると、整形後のファイルが自動でダウンロードされます）</p>
+
+</body>
+</html>
