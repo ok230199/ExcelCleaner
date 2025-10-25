@@ -1,0 +1,2 @@
+# ExcelCleaner
+AIが読みやすいようにExcelを整形するFlaskアプリ
